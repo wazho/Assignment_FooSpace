@@ -1,0 +1,52 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+#root,
+.app {
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+.backgroundImage {
+  position: fixed;
+  z-index: -1;
+
+  width: 100%;
+  height: 100%;
+
+  background: url(https://s3cdn.yourator.co/galleries/galleries/000/006/394/original/18dfb57557d8860a46fc3d7ce9e96e8eace9c687.png?1573469031);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.container {
+  padding: 2em 3em;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.input {
+  margin-bottom: 1em;
+}
