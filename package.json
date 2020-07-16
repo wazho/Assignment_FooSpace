@@ -10,7 +10,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "lodash": "4.17.4",
+    "lodash": "4.17.19",
     "debug": "4.1.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
